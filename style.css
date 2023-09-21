@@ -1,0 +1,130 @@
+@font-face {
+    font-family: "AmericanCaptain";
+    src: url(AmericanCaptain-MdEY.otf);
+}
+/* Reset some default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Style the navigation bar */
+.navbar {
+    background-color: white;
+    color: #fff;
+    padding: 10px 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.logo {
+    text-decoration: none;
+    font-size: 24px;
+    color: #fff;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin-right: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover {
+    color: #ff6600;
+}
+.logo1 {
+    width: 150px;
+    height: 40px;
+    flex-shrink: 0;
+    border-radius: 5.952px;
+    background: #75BF7A;
+}
+.portion {
+    padding: 25px;
+}
+h1 {
+    font-family:AmericanCaptain ;
+    color: black;
+    font-size: 78px;
+    
+}
+.portion > .pic {
+    float: right;
+}
+.part1 > .text {
+font-family: Gilroy;
+font-size: 22px;
+font-weight: 800;
+line-height: 50px;
+letter-spacing: 0em;
+text-align: left;
+
+
+}
+.part1 > .p {
+    float: right;
+}
+
+.container2 > .text {
+    font-family: Gilroy;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 50px;
+    letter-spacing: 0em;
+    text-align: center;
+    padding: 50px;
+    
+    color: black;
+    
+    
+    }
+
+.part3 > .text {
+font-family: Gilroy;
+font-size: 34px;
+font-weight: 600;
+line-height: 33px;
+letter-spacing: 0em;
+text-align: left;
+       
+        
+}
+.container3 > .pic {
+    float: right;
+}    
+.footer {
+    background-color: whitesmoke;
+    height: 200px;
+    padding: 30px;
+} 
+@media only screen and (max-width:600px) {
+    .container {
+        text-align: center;
+
+    }
+    
+}
+
+
+
+
+
